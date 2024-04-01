@@ -9,10 +9,10 @@
 
 /*definimos variables de marca*/
 :root{
-    --color-primario:#6644bb;
-    --color-segundario:#bb00db;
-    --color-fondoA:#221039;
-    --color-fondoB:#37274b;
+    --color-primario:#0008ff;
+    --color-segundario:#00a6ff;
+    --color-fondoA:#121039;
+    --color-fondoB:#27414b;
 }
 
 /*ESTILOS PAGINA DE INICIO*/
@@ -24,6 +24,8 @@
     min-height: 100vh;
     margin: 0 auto;
     background: url("../img/home-img.png") var(--color-fondoA);
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 
@@ -247,7 +249,7 @@
     width: 431px;
     height: 100vh;
     overflow: auto;
-    background: #6644bba5;
+    background: #445abba5;
 }
 
 .modal-content {
@@ -273,7 +275,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
-    background: #bb00db;
+    background: var(--color-primario);
     text-align: center;
     width: 40px;
     border-radius: 0 0 0 10px;
